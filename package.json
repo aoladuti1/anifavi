@@ -1,0 +1,17 @@
+{
+  "name": "anifavi",
+  "version": "1.0.0",
+  "description": "small typescript library for animating chromium favicons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/chrome": "^0.0.304",
+    "typescript": "^5.7.3"
+  }
+}
