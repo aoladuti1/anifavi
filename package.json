@@ -2,16 +2,28 @@
   "name": "anifavi",
   "version": "1.0.0",
   "description": "small typescript library for animating chromium favicons",
-  "main": "index.js",
+  "keywords": [],
+  "homepage": "https://github.com/aoladuti1/anifavi#readme",
+  "bugs": {
+    "url": "https://github.com/aoladuti1/anifavi/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aoladuti1/anifavi.git"
+  },
+  "license": "ISC",
+  "author": "Antonio O.",
+  "type": "module",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
     "@types/chrome": "^0.0.304",
+    "@types/node": "^22.13.4"
+  },
+  "dependencies": {
+    "async-mutex": "^0.5.0",
     "typescript": "^5.7.3"
   }
 }
